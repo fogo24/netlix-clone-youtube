@@ -1,15 +1,14 @@
 import React from "react";
-import "../components/HomeScreen.css";
+import "../HomeScreen/HomeScreen.css";
 import Nav from "../Nav/Nav.js";
+import Fogo from "../Fogo/Fogo.js";
 
 function HomeScreen() {
   return (
     <div className="homeScreen">
       <Nav />
 
-      <Banner />
-
-      {/* Row */}
+      <Fogo />
     </div>
   );
 }
