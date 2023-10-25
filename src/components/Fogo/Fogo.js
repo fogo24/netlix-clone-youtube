@@ -8,7 +8,7 @@ function Fogo() {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await axios.get(Requests.fetchComedyMovies);
+      const request = await axios.get(Requests.fetchNetflixOriginals);
       setMovie(
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
